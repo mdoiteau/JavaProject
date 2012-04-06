@@ -5,7 +5,12 @@ public class Moto extends AbstractVehicule {
 
 	@Override
 	public String getName() {
-		return "2 Roues";
+		return "Moto";
+	}
+
+	@Override
+	public int getNbRoues() {
+		return 2;
 	}
 
 }

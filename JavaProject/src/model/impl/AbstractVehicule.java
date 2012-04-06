@@ -6,20 +6,21 @@ public abstract class AbstractVehicule implements Vehicule {
 
 	@Override
 	public void demare() {
-		System.out.println(getName() + " qui démarre");
+		System.out.println(getName() + " à " + getNbRoues() + "qui démarre");
 	}
 
 	@Override
 	public void accelere() {
-		System.out.println(getName() + " qui accélère");
+		System.out.println(getName() + " à " + getNbRoues() + "qui accélère");
 		
 	}
 
 	@Override
 	public void freine() {
-		System.out.println(getName() + " qui freine");		
+		System.out.println(getName() + " à " + getNbRoues() + "qui freine");		
 	}
 	
 	public abstract String getName();
+	public abstract int getNbRoues();
 	
 }

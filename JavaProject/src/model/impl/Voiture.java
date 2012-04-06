@@ -8,4 +8,9 @@ public  class Voiture extends  AbstractVehicule {
 		return "BAR";
 	}
 
+	@Override
+	public int getNbRoues() {
+		return 4;
+	}
+
 }
